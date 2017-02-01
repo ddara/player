@@ -1,0 +1,14 @@
+.section {
+  padding: 16px;
+  text-align: center;
+
+  @media (min-width: 648px) {
+    padding: 32px;
+  }
+
+  .desc {
+    font-size: 15px;
+    margin: 0 auto;
+    max-width: 440px;
+  }
+}

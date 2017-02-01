@@ -1,0 +1,22 @@
+a {
+  text-decoration: none;
+
+  &.link {
+    color: $orange;
+    display: table;
+    margin: 0 auto;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: color .15s ease-in-out;
+
+    &:first-child {
+      margin-top: 16px;
+    }
+
+    &:hover {
+      color: $black;
+    }
+  }
+}

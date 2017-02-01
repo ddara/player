@@ -1,0 +1,27 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  background: white;
+  box-sizing: border-box;
+}
+
+body {
+  background: $white;
+  color: $grey;
+  font-family: "Assistant", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: .4px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 8px;
+}
