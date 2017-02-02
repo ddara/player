@@ -158,6 +158,9 @@ a {
   padding: 22px 0;
   position: relative;
   text-align: center; }
+  .header img {
+    max-height: 28px;
+    width: 100%; }
 
 .section {
   padding: 16px;
