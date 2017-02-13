@@ -1,0 +1,14 @@
+@media (min-width: 640px) {
+  .row {
+    display: table;
+    content: ' ';
+    clear: both;
+    width: 100%;
+
+    .col {
+      float: left;
+      width: 50%;
+      min-height: 1px;
+    }
+  }
+}
