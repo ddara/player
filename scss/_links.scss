@@ -34,8 +34,11 @@ a {
   }
 
   &.doc {
+    cursor: not-allowed;
     letter-spacing: .5px;
     transition: color .2s ease-in-out;
+    width: auto;
+    margin: 0 auto;
 
     &:hover {
       color: $off-black;
