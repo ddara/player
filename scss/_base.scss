@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'pc';
+  font-family: 'segoe';
   src: local('Segoe UI');
   font-weight: 400;
 }
@@ -18,7 +18,7 @@ body {
   background: $off-white;
   color: $dark-grey;
   font-weight: 300;
-  font-family: -apple-system, BlinkMacSystemFont, 'pc', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'segoe', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.6;
   margin: 0;
