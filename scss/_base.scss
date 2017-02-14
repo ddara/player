@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'pc';
+  src: local('Segoe UI');
+  font-weight: 400;
+}
+
 *,
 *:before,
 *:after {
@@ -11,9 +17,9 @@ html {
 body {
   background: $off-white;
   color: $dark-grey;
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
-  font-size: 14px;
   font-weight: 300;
+  font-family: -apple-system, BlinkMacSystemFont, 'pc', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
   line-height: 1.6;
   margin: 0;
   text-align: center;
