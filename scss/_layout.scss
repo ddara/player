@@ -1,5 +1,5 @@
 header {
-  border-bottom: 2px solid rgba(0, 0, 0, 0.03);
+  border-bottom: 2px solid rgba(0, 0, 0, .05);
   padding-top: 16px;
   padding-bottom: 12px;
 
@@ -20,7 +20,9 @@ main {
 }
 
 footer {
-  color: grey;
-  font-size: 13px;
   padding-bottom: 48px;
+
+  p {
+    font-size: 12px;
+  }
 }
